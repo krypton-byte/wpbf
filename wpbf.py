@@ -26,7 +26,6 @@ async def main(url, user, passw, sl):
         print('%s => user: %s pass: %s|Sukses'%(url, user, passw))
     return True
 
-#p=main('https://mywpc.000webhostapp.com','krypton','algoritmA-123')
 async def init(url,user,wordlist):
     vz=open(wordlist).read().splitlines()
     task=[]
